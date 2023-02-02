@@ -1,0 +1,93 @@
+* {
+	padding:0;
+	margin:0;
+}
+.main-header {
+	width: 80%;
+	margin: auto;
+}
+body{
+	background:#f2f2f2;
+}
+header {
+	background:white;
+	height: 130px ;
+	box-shadow: 0 5px 2px -4px rgb(200,200,200);
+}
+
+header ul {
+	list-style: none;
+	overflow: hidden;
+}
+header ul li {
+	float: left;
+	margin-right: 5px; 
+}
+
+header ul li a:hover {
+	color:black;
+}
+header .menu-nav li a {
+	font-weight: bold;
+	font-size: 15px;
+	color: rgb(140,140,140);
+	text-decoration: none;
+	font-family: 'Cairo', sans-serif;
+	width: 130px ;
+	padding: 2px 0px;
+	display: inline-block;
+	border-bottom: 1px solid #ff6a00;
+}
+
+
+header .registro-nav li a {
+	border-bottom: 1px solid #ffae00;
+	padding: 0px 5px;
+	font-weight: bold;
+	font-size: 13px;
+	text-decoration: none;
+	color: black;
+	font-family: 'Cairo', sans-serif;
+}
+
+
+ header .prom-nav a {
+ 	color:#ff9000 ;
+ 	font-weight: bold;
+ 	text-decoration: none;
+}
+.prom-nav {
+	text-align: center;
+}
+
+header .footer-nav li a {
+	padding:0px;
+	font-size: 12px;
+	box-shadow:none;
+	border-bottom:none;
+	width: none;
+	text-decoration: none;
+	color: rgb(140,140,140);
+	font-family: 'Cairo', sans-serif;
+	margin-right:3px;
+}
+	header .footer-nav li a:hover{
+		font-weight:normal;
+		background:none;
+		text-decoration: underline;
+	}
+header input {
+	width: 518px ;
+	height: 28px ;
+	padding: 0px 6px ;
+	border:  1px solid #bfbfbf;
+	border-radius: 3px;
+}
+	header input[type]:focus {
+		border-color: rgb(255, 144, 0);
+   		box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 3px rgba(255,144,0,0.6);
+   		outline: 0 none;
+	}
+header img {
+	width: 140px;
+}
